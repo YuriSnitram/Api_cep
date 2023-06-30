@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Consulta de Cep</title>
+</head>
+<body>
+    <h1>Consulta Cep</h1>
+    <form>
+        <label for="cep">Cep:</label>
+        <input type="number" id="cep" placeholder="Digite o Cep" maxlength ="9">
+        <input type="text" id="logradouro">
+        
+        <input type="text" id="bairro">
+        <input type="text" id="uf">
+        
+        
+        <Button type="button" onclick="consultaCep()">Consultar</Button>
+        
+    </form>
+    <div id="resultado"></div>
+    
+    
+</body>
+</html>
